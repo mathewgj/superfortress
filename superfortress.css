@@ -1,5 +1,5 @@
-body {background-image:url("b29.jpg");
-	background-size: 100%;
+body {background: url(b29.jpg) no-repeat center center fixed;
+	background-size: cover;
 	font-family: 'Allerta', sans-serif;	
 	}
 a:link {text-decoration:none;
