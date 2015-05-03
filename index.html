@@ -24,10 +24,16 @@ analytics.page()
     		<p><a href="#">Company 4</a></p>
     		<p><a href="#">Company 5</a></p>
     	</div>
+  <script type="text/javascript">
+   analytics.trackLink($("#portfolio"), 'Clicked a portfolio link');
+  </script>
     <br>
     <h3>Team</h3>
     	<div id="team">
     		<p><a href="http://angel.co/matjohnson">Mathew Johnson</a> <a href="http://twitter.com/matjohnson"><img src="twitter.png"></a> <a href="http://www.linkedin.com/in/mathewgjohnson/"><img src="linkedin.png"></a></p>
   		</div>
+   <script type="text/javascript">
+   analytics.trackLink($("#team"), 'Clicked a team link');
+  </script>
   </body>  
 </html>
